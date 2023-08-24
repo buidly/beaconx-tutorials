@@ -1,0 +1,12 @@
+urls:
+  api: 'https://devnet-api.multiversx.com'
+  redis: '127.0.0.1'
+  eventsNotifier: ''
+features:
+  eventsNotifier:
+    enabled: true
+    port: 5201
+  transactionProcessor:
+    enabled: true
+    port: 5202
+    maxLookBehind: 100
